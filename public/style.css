@@ -1,0 +1,61 @@
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --number-font: 'Bebas Neue', cursive;
+    --title-font : 'Oswald', sans-serif;
+    
+    --primary-color-text: #000000;
+    --second-color-text: #323232;
+    --background-color: #FF1E56;
+    --clock-color: #FFAC41;
+  }
+  
+  header {
+    width: 100vw;
+    height: 10vh;
+    line-height: 10vh;
+    background: var(--background-color);
+  }
+   h1 {
+      font-family: var(--title-font);
+      display: relative;
+      margin: 0 10%;
+      
+      }
+  
+  main {
+    width: 100vw;
+    height: 90vh;
+    background: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    #minutes, #seconds {
+      font-family: var(--number-font);
+      text-shadow: 0px 0px 5px rgba(10,0,0,0.2);
+    } 
+      #minutes {
+        font-size: 8rem;
+      }
+      #seconds {
+        font-size: 2rem;
+      }
+  
+  article {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  footer {
+    background: var(--second-color-text);
+    color: white;
+  }
+  
